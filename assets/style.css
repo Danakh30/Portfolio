@@ -1,0 +1,14 @@
+.header {
+  background-color: #c40505;
+  text-align: center;
+  padding: 20px;
+}
+#profile-photo {
+  width: 200px;
+  border-radius: 50%;
+}
+#myname {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
