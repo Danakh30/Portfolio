@@ -1,14 +1,57 @@
-.header {
-  background-color: #c40505;
-  text-align: center;
+header {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
 }
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#myname {
+  font-family: "Poppins", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  margin: 0;
+}
+
+.topnav {
+  display: flex;
+  gap: 20px;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
 #profile-photo {
   width: 200px;
   border-radius: 50%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(196, 55, 55, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: auto;
+  margin-top: 15px;
 }
-#myname {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding: 20px;
+
+#downloadcv {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.6;
+  font-size: 16px;
+  display: block;
+  width: auto;
+  padding: 10px 20px;
+}
+
+#intro {
+  font-family: "Poppins", sans-serif;
+  font-size: x-large;
+  margin: 0;
+}
+
+body {
+  background-color: #ffe4de;
 }
