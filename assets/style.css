@@ -10,6 +10,14 @@ header {
   align-items: center;
 }
 
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
 #myname {
   font-family: "Poppins", sans-serif;
   font-size: x-large;
@@ -28,22 +36,33 @@ header {
   font-family: "Poppins", sans-serif;
 }
 
+.intro-content {
+  padding: 50px;
+}
+
 #profile-photo {
   width: 200px;
   border-radius: 50%;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(196, 55, 55, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: auto;
+  margin-right: 150px;
   margin-top: 15px;
 }
 
 #downloadcv {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   opacity: 0.6;
   font-size: 16px;
+  text-align: center;
+  color: white;
+  background-color: #008080;
   display: block;
+  cursor: pointer;
   width: auto;
   padding: 10px 20px;
+  border-radius: 15px;
+  margin-top: 20px;
 }
 
 #intro {
@@ -54,4 +73,9 @@ header {
 
 body {
   background-color: #ffe4de;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  padding: 20px;
 }
