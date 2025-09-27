@@ -56,8 +56,9 @@ header {
   margin: 0;
 }
 
-.btn,
-#downloadcv {
+.btn {
+  display: inline-block;
+  text-decoration: none;
   appearance: none;
   border: none;
   border-radius: 14px;
@@ -66,7 +67,6 @@ header {
   line-height: 1;
   cursor: pointer;
   background: #5ea8a9;
-  /* teal accent */
   color: white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   opacity: 1;
@@ -162,4 +162,14 @@ header {
 
 .contact-item a:hover {
   text-decoration: underline;
+}
+
+#cs-container .project[hidden] {
+  display: none !important;
+}
+
+.btn.active-filter {
+  background-color: #4A898A;
+  color: white;
+  font-weight: bold;
 }
