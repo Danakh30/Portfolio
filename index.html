@@ -29,28 +29,154 @@
           Cybersecurity Enthusiast <br>
           Recent Computer Science Graduate
         </h1>
-        <button id="downloadcv">Download CV</button>
+        <a href="assets/cv/Dana B. AlKhouri Resume (1page).pdf" download class="btn">
+          Download CV
+        </a>
+
+
+        <!-- <button id="downloadcv">Download CV</button> -->
       </div>
       <img id="profile-photo" src="assets/img/PersonalPhoto.jpeg" alt="Portrait of Dana Alkhouri" />
     </div>
+    <!-- <hr class="line"> -->
   </header>
   <main>
     <section id="about">
       <h2>About Me</h2>
+      <p> I am a recent Computer Science graduate with a minor in Mathematics from AUC, passionate about cybersecurity
+        and software development. I’ve built projects ranging from fileless malware simulations to full-stack web apps,
+        and I gained professional experience as a Frontend Engineering Intern at BoundryLabs. I enjoy tackling complex
+        problems, learning new technologies, and contributing to secure, impactful software solutions.
+      </p>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
+      <h3>My Recent Projects</h3>
+
+
+      <div class="btn-container" id="filters" role="group" aria-label="Filter projects">
+        <button class="btn" data-filter="all" aria-pressed="true">All</button>
+        <button class="btn" data-filter="graduation" aria-pressed="false">Graduation Project</button>
+        <button class="btn" data-filter="cybersecurity" aria-pressed="false">Cybersecurity</button>
+        <button class="btn" data-filter="frontend" aria-pressed="false">Front-End</button>
+      </div>
+      <div id="cs-container">
+        <article class="project fileless-malware" data-cat="cybersecurity">
+          <header>
+            <h4>Fileless Malware Simulation</h4>
+            <p class="tagline">Explored in-memory malware execution, persistence, and evasion techniques.</p>
+          </header>
+          <!-- <p class="popuptext" id="myPopup">Developed a fileless malware that executed entirely in
+            memory without writing to disk. Implemented persistence through Windows Task Scheduler at SYSTEM
+            privilege
+            level and simulated malicious
+            behaviors such as screenshot capture and command-and-control (C2) communication. Applied obfuscation
+            techniques including AES encryption, Base64 encoding, and misleading script names to evade
+            signature-based
+            detection. This project highlighted the challenges defenders face with memory-only malware and
+            emphasized
+            the importance of behavior-based security monitoring</p> -->
+          <ul>
+            <li>Python (C2 server, encryption)</li>
+            <li>PowerShell (payload & persistence) </li>
+            <li> Windows Task Scheduler</li>
+            <li>AES Encryption, Base64 Encoding</li>
+          </ul>
+        </article>
+        <article class="project krack-simulation" data-cat="cybersecurity">
+          <header>
+            <h4>KRACK Attack Simulation</h4>
+            <p class="tagline"></p>
+          </header>
+          <p></p>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </article>
+        <article class="project risk-assessment" data-cat="cybersecurity">
+          <header>
+            <h4>University Risk Assessment</h4>
+            <p class="tagline"></p>
+          </header>
+          <p></p>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </article>
+        <article class="project web-exploit" data-cat="cybersecurity">
+          <header>
+            <h4>Web Application Exploitation & Remediation</h4>
+            <p class="tagline"></p>
+          </header>
+          <p></p>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </article>
+        <article class="project boundrylabs " data-cat="frontend">
+          <header>
+            <h4>Internship </h4>
+            <p class="tagline"></p>
+          </header>
+          <p></p>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </article>
+        <article class="project mindwell" data-cat="graduation">
+          <header>
+            <h4>Mindwell</h4>
+            <p class="tagline"></p>
+          </header>
+          <p></p>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </article>
+
+      </div>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
+      <div class="content-item">
+        <p><strong>Email:</strong>
+          <a href="mailto:danakhouri23@gmail.com">danakhouri23@gmail.com</a>
+        </p>
+      </div>
+      <div class="content-item">
+        <p><strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/dana-alkhouri/" target="_blank">linkedin.com/in/dana-alkhouri</a>
+        </p>
+      </div>
+      <div class="content-item">
+        <p><strong>GitHub:</strong>
+          <a href="https://github.com/Danakh30" target="_blank">https://github.com/Danakh30</a>
+        </p>
+      </div>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Dana Alkhouri. All rights reserved.</p>
   </footer>
+  <script src="assets/js/script1.js"></script>
 
 </body>
 
