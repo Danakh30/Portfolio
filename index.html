@@ -67,87 +67,97 @@
             <h4>Fileless Malware Simulation</h4>
             <p class="tagline">Explored in-memory malware execution, persistence, and evasion techniques.</p>
           </header>
-          <!-- <p class="popuptext" id="myPopup">Developed a fileless malware that executed entirely in
-            memory without writing to disk. Implemented persistence through Windows Task Scheduler at SYSTEM
-            privilege
-            level and simulated malicious
-            behaviors such as screenshot capture and command-and-control (C2) communication. Applied obfuscation
-            techniques including AES encryption, Base64 encoding, and misleading script names to evade
-            signature-based
-            detection. This project highlighted the challenges defenders face with memory-only malware and
-            emphasized
-            the importance of behavior-based security monitoring</p> -->
-          <ul>
-            <li>Python (C2 server, encryption)</li>
-            <li>PowerShell (payload & persistence) </li>
-            <li> Windows Task Scheduler</li>
-            <li>AES Encryption, Base64 Encoding</li>
-          </ul>
+          <div class="project-details">
+            <p>Developed a fileless malware that executed entirely in memory without writing to disk. Implemented
+              persistence through Window Task Scheduler at SYSTEM privilegelevel and simulated malicious behaviors such
+              as screenshot capture and command-and-control (C2) communication. Applied obfuscation techniques including
+              AES encryption, Base64 encoding, and misleading script names to evade signature-based detection. This
+              project highlighted the challenges defenders face with memory-only malware and emphasized the importance
+              of behavior-based security monitoring</p>
+            <ul>
+              <li>Python (C2 server, encryption)</li>
+              <li>PowerShell (payload & persistence) </li>
+              <li> Windows Task Scheduler</li>
+              <li>AES Encryption, Base64 Encoding</li>
+            </ul>
+          </div>
         </article>
         <article class="project krack-simulation" data-cat="cybersecurity">
           <header>
             <h4>KRACK Attack Simulation</h4>
-            <p class="tagline"></p>
+            <p class="tagline">Demonstrated KRACK by replaying WPA2 handshake message 3 to force key reinstallation.</p>
           </header>
-          <p></p>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <div class="project-details">
+            <p>
+              I built a controlled Wi-Fi lab to demonstrate the KRACK attack on WPA2 by replaying handshake Message-3 to
+              force key reinstallation, which resets nonces and enables packet decryption/replay. The setup used a Kali
+              attacker with a hostapd AP and TP-Link USB adapter (monitor/injection), Vanhoef’s KRACK PoC, and Wireshark
+              for analysis; the victim was a Raspberry Pi (Raspbian 2016-05-13, wpa_supplicant 2.2). I replayed
+              Message-3, captured the handshake and data frames, and verified nonce reuse and traffic exposure in
+              Wireshark, confirming the vulnerable client state (“this is bad”) and demonstrating selective
+              decryption/replay.
+            </p>
+          </div>
         </article>
         <article class="project risk-assessment" data-cat="cybersecurity">
           <header>
             <h4>University Risk Assessment</h4>
             <p class="tagline"></p>
           </header>
-          <p></p>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <div class="project-details">
+            <p></p>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
         </article>
         <article class="project web-exploit" data-cat="cybersecurity">
           <header>
             <h4>Web Application Exploitation & Remediation</h4>
             <p class="tagline"></p>
           </header>
-          <p></p>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <div class="project-details">
+            <p></p>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
         </article>
         <article class="project boundrylabs " data-cat="frontend">
           <header>
             <h4>Internship </h4>
             <p class="tagline"></p>
           </header>
-          <p></p>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <div class="project-details">
+            <p></p>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
         </article>
         <article class="project mindwell" data-cat="graduation">
           <header>
             <h4>Mindwell</h4>
             <p class="tagline"></p>
           </header>
-          <p></p>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <div class="project-details">
+            <p></p>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
         </article>
 
       </div>
