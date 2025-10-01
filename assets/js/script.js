@@ -31,4 +31,24 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (buttons.length > 0) {
         buttons[0].click();
     }
+
+
+    cards.forEach(card => {
+        card.setAttribute('role', 'button');
+        card.setAttribute('tabindex', '0');
+        card.setAttribute('aria-expanded', 'false');
+
+        card.addEventListener('click', () => {
+            const expanded = card.getAttribute('aria-expanded') === 'true';
+            card.setAttribute('aria-expanded', String(!expanded));
+            card.classList.toggle('is-expanded', !expanded);
+        });
+
+        card.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                card.click();
+            }
+        });
+    });
 });
