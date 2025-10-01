@@ -5,6 +5,17 @@ header {
   padding: 24px;
 }
 
+:root {
+  --focus-ring: #008080;
+}
+
+:where(a, button, .btn, [role="button"], input, textarea, select, #cs-container .project):focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+
+
 .top-row {
   display: flex;
   justify-content: space-between;
@@ -166,6 +177,23 @@ header {
 
 #cs-container .project[hidden] {
   display: none !important;
+}
+
+#cs-container .project .project-details {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height .9s ease, opacity .7s ease;
+}
+
+#cs-container .project.is-expanded {
+  grid-column: span 2;
+  z-index: 2;
+}
+
+#cs-container .project.is-expanded .project-details {
+  max-height: 1000px;
+  opacity: 1;
 }
 
 .btn.active-filter {
