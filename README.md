@@ -16,7 +16,7 @@ This site showcases my projects, technical skills, and experience as a recent co
 - Analytics: Google Analytics 4
 
 🧑‍💻 How to View
-- Live site: https://yourusername.github.io/portfolio/
+- Live site: https://danakh30.github.io/portfolio/
 
 🧩 Projects Included
 - Full-Stack Web App
