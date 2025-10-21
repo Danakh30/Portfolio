@@ -16,14 +16,14 @@ This site showcases my projects, technical skills, and experience as a recent co
 - Analytics: Google Analytics 4
 
 🧑‍💻 How to View
-👉 Live site: https://yourusername.github.io/portfolio/
-👉 Code: Browse this repository
+- Live site: https://yourusername.github.io/portfolio/
 
 🧩 Projects Included
 - Full-Stack Web App
-- Frontend Engineering Internship Project
+- Recent Projects & Research Descriptions
+
 
 📬 Contact
 If you’d like to connect or collaborate:
-- Email: your.email@example.com
-- LinkedIn: linkedin.com/in/yourprofile
+- Email: danakhouri23@gmail.com
+- LinkedIn: https://www.linkedin.com/in/dana-alkhouri/
